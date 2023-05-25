@@ -1,0 +1,60 @@
+1. To check if Git is enabled in your system, you can follow these steps:
+
+1) Open a terminal or command prompt on your system.
+2) Type the command "git --version" and press Enter.
+3) If Git is installed and enabled, you will see the version information displayed in the terminal. For example, it might show something like "git version 2.30.1".
+4) If Git is not installed or not properly configured, you will likely see an error message indicating that the command is not recognized.
+
+2. To initialize a new Git repository
+
+$ cd /path/to/your/directory
+$ git init
+Initialized empty Git repository in /path/to/your/directory/.git/
+
+
+3. When using Git, you can set your name and email globally or per repository. Here's how you can set them:
+$ git config --global user.name "Your Name"
+$ git config --global user.email "your-email@example.com"
+
+4. To add a file to the staging area in Git, you can use the "git add" command
+
+$ git add <file>
+
+$ git add script.js
+
+$ git add .
+
+5. To remove a file from the staging area in Git, you can use the "git reset" command
+
+
+$ git reset <file>
+$ git reset script.js
+$ git reset
+
+6. To make a commit in Git
+$ git commit -m "Your commit message"
+$ git commit -m "Add new feature"
+$ git commit -a -m "Your commit message"
+
+7. To send your changes to a remote repository in Git, you typically need to set up a remote connection and push your commits.
+
+$ git push -u origin main
+
+
+8. 
+In Git, "commit" and "push" are two distinct operations with different purposes:
+
+Commit:
+
+Committing refers to the act of saving changes to your local Git repository.
+When you make changes to your files and want to record those changes as a new version, you create a commit.
+A commit is a snapshot of the changes made to your files at a specific point in time.
+Each commit has a unique identifier (a SHA-1 hash) and includes information such as the author, timestamp, and a commit message describing the changes.
+Commits are stored locally and allow you to review the history, revert changes, and collaborate with others before pushing the changes to a remote repository.
+Push:
+
+Pushing refers to the act of sending your local commits to a remote Git repository.
+After committing changes locally, you may want to share your commits with others or synchronize your work with a central repository.
+Pushing uploads your local commits to the remote repository, making them accessible to others working on the same project.
+It sends the commits, along with their associated changes and metadata, from your local repository to the remote repository.
+Pushing is typically done to share your work, collaborate with teammates, or back up your changes on a remote server.

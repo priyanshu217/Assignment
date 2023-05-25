@@ -1,0 +1,77 @@
+1. In Java, the conditional operators are used to perform logical operations and make decisions based on certain conditions. The conditional operators in Java are as follows:
+1). Equality Operators
+2). Relational Operators
+3). Logical Operators
+4). Arithmatic Operators
+
+2. Based on the number of operands they act upon, operators can be classified into the following categories:
+1.Unary Operators
+2.Binary Operators
+3.Ternary Operator
+
+3. The "switch-case" statement in Java is a control flow statement used for selective execution. It allows the program to evaluate an expression and perform different actions based on the value of that expression. 
+
+4. In Java, arithmetic operations have a well-defined order of precedence, which determines the sequence in which these operations are evaluated. The priority order of arithmetic operators in Java, from highest to lowest, is as follows:
+
+1)Parentheses: Expressions enclosed in parentheses are evaluated first.
+2)Unary Operators: Unary plus (+) and unary minus (-) operators are applied next. They have the highest precedence among the arithmetic operators.
+3)Multiplicative Operators: Multiplication (*), division (/), and modulus (%) operators are evaluated next. They have equal precedence and are evaluated from left to right.
+4)Additive Operators: Addition (+) and subtraction (-) operators are evaluated next. They have equal precedence and are evaluated from left to right.
+
+5. In Java, conditional statements are used to control the flow of execution based on certain conditions. There are two main types of conditional statements: the "if" statement and the "switch-case" statement.
+
+6. The "if" statement in Java is used to execute a block of code only if a specified condition is true. Here's the syntax of the "if" statement:
+if (condition) {
+    // code block executed if the condition is true
+}
+if (condition) {
+    // code block executed if the condition is true
+} else {
+    // code block executed if the condition is false
+}
+
+7. In Java, there are three types of iterative statements (also known as loops) that allow you to repeat a block of code multiple times. The three types of iterative statements in Java are:
+1)  for Loop:
+2)  while Loop:
+3)  do-while Loop:
+
+8. Certainly! Here's a comparison between the "for" loop and the "do-while" loop:
+
+1) for Loop:
+
+Syntax:
+java
+Copy code
+for (initialization; condition; update) {
+    // code block executed in each iteration
+}
+The "for" loop is primarily used when you know the exact number of iterations.
+It consists of three parts: initialization, condition, and update.
+Initialization: It initializes the loop variable before the loop starts.
+Condition: It is evaluated before each iteration, and if it is true, the loop continues. If false, the loop is terminated.
+Update: It is executed at the end of each iteration, usually to update the loop variable.
+ 
+2) do-while Loop:
+
+Syntax:
+java
+Copy code
+do {
+    // code block executed in each iteration
+} while (condition);
+The "do-while" loop is used when you want to ensure that the code block is executed at least once, regardless of the condition.
+It consists of a code block and a condition.
+Code Block: It contains the statements to be executed in each iteration.
+Condition: It is evaluated after each iteration, and if it is true, the loop continues. If false, the loop is terminated.
+
+9. Certainly! Here's a Java program that prints the numbers from 1 to 10 using a for loop
+
+public class PrintNumbers {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+
